@@ -7,7 +7,7 @@ var rotaFormINoticias = require('./app/routes/formINoticia')(app);
 //var msg = require("./modulos/mod_teste"); 
 
 //sobe o servidor na porta 3000 e executa a funcao de callback
-console.log("Starting server...");
+console.log("[DEBUG] - Starting server...");
 app.listen(3000, function(){
-    console.log("Server started successfully");
+    console.log("[DEBUG] - Server started successfully");
 });
